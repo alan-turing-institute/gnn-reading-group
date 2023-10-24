@@ -15,5 +15,8 @@ Please add suggestions and emoji preferences to the [list of proposed topics](ht
 |Date | Topic | Room | Lead | Material |
 | --- | ----- | ---- | ---- | -------- |
 | 2023-11-02 | Introduction to Graphs | Issac Asimov (2nd floor) | [Nathan Simpson](https://github.com/phinate) |
+| 2023-11-09 | |  |  |
+| 2023-11-16 |  | |  |
+
 
 
