@@ -14,8 +14,8 @@ Please add suggestions and emoji preferences to the [list of proposed topics](ht
 
 |Date | Topic | Room | Lead | Material |
 | --- | ----- | ---- | ---- | -------- |
-| 2023-11-02 | Introduction to Learning on Graphs | Issac Asimov (2nd floor) | [Nathan Simpson](https://github.com/phinate) |
-| 2023-11-09 | |  |  |
+| 2023-11-02 | Introduction to Learning on Graphs (part 1)| Issac Asimov (2nd floor) | [Nathan Simpson](https://github.com/phinate) | [GDL lecture 5](https://youtu.be/J2bLt3-SSpg?si=EgJ50xAPzCqMMzdS)
+| 2023-11-09 | Introduction to Learning on Graphs (part 2)| Cipher (1st floor) | Levan Bokeria | [GDL lecture 5](https://youtu.be/J2bLt3-SSpg?si=EgJ50xAPzCqMMzdS)
 | 2023-11-16 |  | |  |
 
 
