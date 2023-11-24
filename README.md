@@ -10,15 +10,19 @@ The group meets every <b>week on Thursdays at 14:00--15:00</b>. Everyone is welc
 
 Please add suggestions and emoji preferences to the [list of proposed topics](https://hackmd.io/@8yFBFkVxSEuoQIbgLEuXfw/SkyYJLBzp) on HackMD. We'd love for you to lead a session (and there aren't any prerequisites for doing so!).
 
-## Upcoming Schedule
+## Next week:
 
+|Date | Topic | Room | Lead | Material | Recording/Slides |
+| --- | ----- | ---- | ---- | -------- | ---------------- |
+| 2023-11-30 | Practical Introduction to Graph Neural Networks (notebook) | Jack Good | Boyko Vodenicharski | |  | 
+
+## Past talks
 |Date | Topic | Room | Lead | Material | Recording/Slides |
 | --- | ----- | ---- | ---- | -------- | ---------------- |
 | 2023-11-02 | Introduction to Learning on Graphs (part 1)| Issac Asimov (2nd floor) | [Nathan Simpson](https://github.com/phinate) | [GDL lecture 5](https://youtu.be/J2bLt3-SSpg?si=EgJ50xAPzCqMMzdS) | [Recording](https://thealanturininstitute.sharepoint.com/sites/forecasting/Shared%20Documents/Forms/AllItems.aspx?id=/sites/forecasting/Shared%20Documents/Recordings/2023-11-02%20GNN%20Reading%20Group&p=true&ga=1)
 | 2023-11-09 | Introduction to Learning on Graphs (part 2)| Cipher (1st floor) | Levan Bokeria | [GDL lecture 5](https://youtu.be/J2bLt3-SSpg?si=EgJ50xAPzCqMMzdS) | [Recording](https://thealanturininstitute.sharepoint.com/:v:/s/forecasting/EUY9baG_Kp9Gvi5s1OHkao8BnWyvsj3ZxE9fH9GDjZHT0A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=bqzBl3); [Slides](https://github.com/alan-turing-institute/gnn-reading-group/blob/main/sessions/session%202%20-%20GDL%20lecture%205%20part%202/2023-11-09%20GDL%20lecture%205%20part%202.pdf)
 | 2023-11-16 |  "Geometric Deep Learning" - Lecture 6 (Graphs & Sets II) - Petar Veličković  | Mary Shelly (2nd floor!) | Mohamad Elmasri | [GDL Lecture 6](https://www.youtube.com/watch?v=HvQw7Zq1jtU) | [Recording](https://thealanturininstitute.sharepoint.com/:v:/s/forecasting/EUY9baG_Kp9Gvi5s1OHkao8BnWyvsj3ZxE9fH9GDjZHT0A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=bqzBl3) |
 | 2023-11-23 | "Geometric Deep Learning" - Lecture 6 (Graphs & Sets II) - Petar Veličković | Isaac Asimov | Mohamad Elmasri | [GDL Lecture 6](https://www.youtube.com/watch?v=HvQw7Zq1jtU) | [Recording](https://thealanturininstitute.sharepoint.com/:v:/s/forecasting/EUY9baG_Kp9Gvi5s1OHkao8BnWyvsj3ZxE9fH9GDjZHT0A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=bqzBl3) | [Recording](https://thealanturininstitute.sharepoint.com/:v:/s/forecasting/ERnYpBwz8n5Gpy_3PFJzkT0BOvjm4SyGrQAeIfAXxBFV6A?e=fpy0Ef&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 
-| 2023-11-30 | Practical Introduction to Graph Neural Networks (notebook) | Jack Good | Boyko Vodenicharski | |  | 
 
 
 
