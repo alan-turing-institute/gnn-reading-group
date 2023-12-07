@@ -10,7 +10,7 @@ The group meets every <b>week on Thursdays at 14:00--15:00</b>. Everyone is welc
 
 Please add suggestions and emoji preferences to the [list of proposed topics](https://hackmd.io/@8yFBFkVxSEuoQIbgLEuXfw/SkyYJLBzp) on HackMD. We'd love for you to lead a session (and there aren't any prerequisites for doing so!).
 
-We are starting to maintain a document with some shared knowledge based on the topics we've covered so far ([Overleaf link](https://www.overleaf.com/1719155131dwjmktgyzfbh#9d1967).
+We are starting to maintain a document with some shared knowledge based on the topics we've covered so far ([Overleaf link](https://www.overleaf.com/1719155131dwjmktgyzfbh#9d1967)).
 
 ## Next week:
 
