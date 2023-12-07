@@ -14,7 +14,7 @@ Please add suggestions and emoji preferences to the [list of proposed topics](ht
 
 |Date | Topic | Room | Lead | Material | Recording/Slides |
 | --- | ----- | ---- | ---- | -------- | ---------------- |
-| 2023-12-06 | Review and ideas for future sessions | Jack Good | Oliver Strickson | |  | 
+| 2023-12-14 |  |  |  | |  | 
 
 ## Past talks
 |Date | Topic | Room | Lead | Material | Recording/Slides |
@@ -24,5 +24,6 @@ Please add suggestions and emoji preferences to the [list of proposed topics](ht
 | 2023-11-16 |  "Geometric Deep Learning" - Lecture 6 (Graphs & Sets II) - Petar Veličković  | Mary Shelly (2nd floor!) | Mohamad Elmasri | [GDL Lecture 6](https://www.youtube.com/watch?v=HvQw7Zq1jtU) | [Recording](https://thealanturininstitute.sharepoint.com/:v:/s/forecasting/EUY9baG_Kp9Gvi5s1OHkao8BnWyvsj3ZxE9fH9GDjZHT0A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=bqzBl3) |
 | 2023-11-23 | "Geometric Deep Learning" - Lecture 6 (Graphs & Sets II) - Petar Veličković | Isaac Asimov | Mohamad Elmasri | [GDL Lecture 6](https://www.youtube.com/watch?v=HvQw7Zq1jtU) | [Recording](https://thealanturininstitute.sharepoint.com/:v:/s/forecasting/EUY9baG_Kp9Gvi5s1OHkao8BnWyvsj3ZxE9fH9GDjZHT0A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=bqzBl3) | [Recording]([https://thealanturininstitute.sharepoint.com/:v:/s/forecasting/ERnYpBwz8n5Gpy_3PFJzkT0BOvjm4SyGrQAeIfAXxBFV6A?e=fpy0Ef&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://thealanturininstitute.sharepoint.com/:v:/s/forecasting/ERnYpBwz8n5Gpy_3PFJzkT0BOvjm4SyGrQAeIfAXxBFV6A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1FbWFpbCIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=yg2tBq)https://thealanturininstitute.sharepoint.com/:v:/s/forecasting/ERnYpBwz8n5Gpy_3PFJzkT0BOvjm4SyGrQAeIfAXxBFV6A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1FbWFpbCIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=yg2tBq) | 
 | 2023-11-30 | Practical Introduction to Graph Neural Networks (notebook) | Jack Good | Boyko Vodenicharski | | [Recording](https://thealanturininstitute.sharepoint.com/:v:/s/forecasting/EUSEeABxwL5BruKo5-iqEksBq4QttDRmAXm4CkhVTc8JMQ?e=ATvLQC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | 
+| 2023-12-07 | Recap of what we've covered so far and ideas for future sessions | Project Space | Oliver Strickson | |  |
 
 
