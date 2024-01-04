@@ -12,11 +12,12 @@ Please add suggestions and emoji preferences to the [list of proposed topics](ht
 
 We are starting to maintain a document with some shared knowledge based on the topics we've covered so far ([Overleaf link](https://www.overleaf.com/1719155131dwjmktgyzfbh#9d1967)).
 
-## Next week:
+## Upcoming talks:
 
 |Date | Topic | Room | Lead | Material | Recording/Slides |
 | --- | ----- | ---- | ---- | -------- | ---------------- |
-| 2023-12-14 |  |  |  | |  | 
+| 2024-01-11 | | Marian Rejewski  |  |  | |  
+| 2024-01-18 | Transformers are GNNs | Marian Rejewski  | Edmund Dable-Heath |  | |  
 
 ## Past talks
 |Date | Topic | Room | Lead | Material | Recording/Slides |
