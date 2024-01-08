@@ -16,7 +16,7 @@ We are starting to maintain a document with some shared knowledge based on the t
 
 |Date | Topic | Room | Lead | Material | Recording/Slides |
 | --- | ----- | ---- | ---- | -------- | ---------------- |
-| 2024-01-11 | Transformers are GNNs | Marian Rejewski  | Edmund Dable-Heath | [Blog post](https://thegradient.pub/transformers-are-graph-neural-networks/), [Document from Petar Veličković](https://nitter.com/PetarV_93/status/1721709993395658986?s=20) | |  
+| 2024-01-11 | Transformers are GNNs | Marian Rejewski  | Edmund Dable-Heath | [Blog post](https://thegradient.pub/transformers-are-graph-neural-networks/), [Document from Petar Veličković](https://nitter.net/PetarV_93/status/1721709993395658986?s=20) | |  
 | 2024-01-18 |  | Marian Rejewski  |  |  | |  
 
 ## Past talks
