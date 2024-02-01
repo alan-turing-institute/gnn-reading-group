@@ -29,7 +29,7 @@ We are starting to maintain a document with some shared knowledge based on the t
 | 2023-12-07 | Recap of what we've covered so far and ideas for future sessions | Project Space | [Oliver Strickson](https://github.com/ots22) | |  |
 | 2024-01-11 | Transformers are GNNs | Marian Rejewski  | Edmund Dable-Heath | [Blog post](https://thegradient.pub/transformers-are-graph-neural-networks/), [Document from Petar Veličković](https://nitter.net/PetarV_93/status/1721709993395658986?s=20) | |
 | 2024-01-18 |  | Marian Rejewski  |  |  | | 
-| 2024-01-25 | No talk this week | | | | |
+| 2024-01-25 | *No talk this week* | | | | |
 | 2024-02-01 | Forecasting Global Weather with Graph Neural Networks | | [Nathan Simpson](https://github.com/phinate) | | [Recording](https://thealanturininstitute.sharepoint.com/:v:/s/forecasting/Ea9uBesMkXJClQSc5AXiH3oBx9UWNONzM-KU3up_QZ530Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5Qg6xk) |
 
 
