@@ -14,9 +14,14 @@ We are starting to maintain a document with some shared knowledge based on the t
 
 ## Upcoming talks:
 
-|Date | Topic | Room | Lead | Material | Recording/Slides |
-| --- | ----- | ---- | ---- | -------- | ---------------- |  
-|  |  |  |  |  |  |  
+| Date       | Topic | Room | Lead | Material | Recording/Slides | Comments           | 
+| ---        | ----- | ---- | ---- | -------- | ---------------- | ---------          |
+| 2024-02-15 |       |      |      |          |                  |                    | 
+| 2024-02-22 |       |      |      |          |                  |                    |
+| 2024-02-29 |       |      |      |          |                  | (AI4NWP team away) |
+| 2024-03-07 |       |      |      |          |                  |                    |
+| 2024-03-14 |       |      |      |          |                  |                    |
+| 2024-03-21 |       |      |      |          |                  |                    |
 
 ## Past talks
 |Date | Topic | Room | Lead | Material | Recording/Slides |
@@ -31,5 +36,7 @@ We are starting to maintain a document with some shared knowledge based on the t
 | 2024-01-18 |  | Marian Rejewski  |  |  | | 
 | 2024-01-25 | *No talk this week* | | | | |
 | 2024-02-01 | Forecasting Global Weather with Graph Neural Networks | | [Nathan Simpson](https://github.com/phinate) | | [Recording](https://thealanturininstitute.sharepoint.com/:v:/s/forecasting/Ea9uBesMkXJClQSc5AXiH3oBx9UWNONzM-KU3up_QZ530Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5Qg6xk) |
+| 2024-02-08 | *No talk this week* | | | | |
+
 
 
