@@ -20,7 +20,7 @@ We are starting to maintain a document with some shared knowledge based on the t
 | 2024-02-22 |       |      |      |          |                  |                    |
 | 2024-02-29 |       |      |      |          |                  | (AI4NWP team away) |
 | 2024-03-07 |       |      |      |          |                  |                    |
-| 2024-03-14 |       |      |      |          |                  |                    |
+| 2024-03-14 | GNNs as network-aware cyber defence policies | | Ilya Orson Sandoval | | | Turing Internship project |
 | 2024-03-21 |       |      |      |          |                  |                    |
 
 ## Past talks
