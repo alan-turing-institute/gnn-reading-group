@@ -6,9 +6,9 @@ If you're based at the Turing, follow `#gnn-reading-group` on the Turing Slack f
 
 ## Overview
 
-The group meets every <b>week on Thursdays at 14:00--15:00</b>. Everyone is welcome to join! If you have any questions email [Nathan](mailto:nsimpson@turing.ac.uk) or [Oliver](mailto:ostrickson@turing.ac.uk).
+The group meets <b>biweekly on Thursdays at 14:00–15:00</b>, and collaboratively works through a resource on a particular topic. The in-between weeks are left open for application talks, usually to highlight something that someone in the group is working on. Everyone is welcome to join! If you have any questions email [Nathan](mailto:nsimpson@turing.ac.uk) or [Oliver](mailto:ostrickson@turing.ac.uk).
 
-Please add suggestions and emoji preferences to the [list of proposed topics](https://hackmd.io/@8yFBFkVxSEuoQIbgLEuXfw/SkyYJLBzp) on HackMD. We'd love for you to lead a session (and there aren't any prerequisites for doing so!).
+Please add suggestions and emoji preferences to the [list of proposed topics](https://hackmd.io/@8yFBFkVxSEuoQIbgLEuXfw/SkyYJLBzp) on HackMD. We'd love for you to lead a session (and there aren't any prerequisites for doing so — just have to be willing to learn!).
 
 We are starting to maintain a document with some shared knowledge based on the topics we've covered so far ([Overleaf link](https://www.overleaf.com/1719155131dwjmktgyzfbh#9d1967)).
 
@@ -16,11 +16,7 @@ We are starting to maintain a document with some shared knowledge based on the t
 
 | Date       | Topic | Room | Lead | Material | Recording/Slides | Comments           | 
 | ---        | ----- | ---- | ---- | -------- | ---------------- | ---------          |
-| 2024-02-15 |       |      |      |          |                  |                    | 
-| 2024-02-22 |       |      |      |          |                  |                    |
-| 2024-02-29 |       |      |      |          |                  | (AI4NWP team away) |
-| 2024-03-07 |       |      |      |          |                  |                    |
-| 2024-03-14 |       |      |      |          |                  |                    |
+| 2024-03-07 | Hello + deciding on next resource!      |   Issac Asimov (2nd floor)   |   Nathan Simpson   |          |                  |                    |
 | 2024-03-21 |       |      |      |          |                  |                    |
 
 ## Past talks
