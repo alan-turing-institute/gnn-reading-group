@@ -16,7 +16,7 @@ We are starting to maintain a document with some shared knowledge based on the t
 
 | Date       | Topic | Room | Lead | Material | Recording/Slides | Comments           | 
 | ---        | ----- | ---- | ---- | -------- | ---------------- | ---------          |
-| 2024-03-21 |  [CS224W: Learning with Graphs](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)  |      |      |          |                  |                    |
+| 2024-04-04 |  [CS224W: Learning with Graphs, lecture 2.2](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)  | Marian Rejewski | |[CS224W: Learning with Graphs, lecture 2.2](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)|Recording |                    |
 
 ## Past talks
 |Date | Topic | Room | Lead | Material | Recording/Slides |
@@ -33,6 +33,7 @@ We are starting to maintain a document with some shared knowledge based on the t
 | 2024-02-01 | Forecasting Global Weather with Graph Neural Networks | | [Nathan Simpson](https://github.com/phinate) | | [Recording](https://thealanturininstitute.sharepoint.com/:v:/s/forecasting/Ea9uBesMkXJClQSc5AXiH3oBx9UWNONzM-KU3up_QZ530Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5Qg6xk) |
 | 2024-02-08 | *No talk this week* | | | | |
 | 2024-03-07 | Hello + deciding on next resource!      |   Issac Asimov (2nd floor)   |   Nathan Simpson   |          |                  |                    |
+| 2024-03-21 |  [CS224W: Learning with Graphs, lecture 2.1](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)  | Marian Rejewski |Nathan Simpson|[CS224W: Learning with Graphs, lecture 2.1](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)|[Recording](https://thealanturininstitute.sharepoint.com/:f:/s/forecasting/Eu6fbjIY8GZPq_TT5ZpwOGIByjs-TJNVqpvBENP2t4ZD9Q?e=loz4gk) |                    |
 
 
 
