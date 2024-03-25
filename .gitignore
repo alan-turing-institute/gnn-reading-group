@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environments
+__pypackages__
+.pdm.toml
+poetry.toml
+.env
+.venv
+covreport
+pip-wheel-metadata
+.tox
+
+# Documentation
+*/_build/*
+*/site/*
+/site
+.mypy_cache/*
+.cache
+*.log
+
+# Editors
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+.idea/
+
+# Tests artifacts
+.coverage*
+htmlcov/
+
+# macOS
+.DS_Store
+
+# Nix
+/.devenv
+/.direnv
+/.pre-commit-config.yaml
+/result*
