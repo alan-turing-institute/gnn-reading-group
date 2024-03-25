@@ -63,4 +63,8 @@ htmlcov/
 /.devenv
 /.direnv
 /.pre-commit-config.yaml
+
+# Pretend we don't have a submodule
+quartz/.git
+
 /result*
