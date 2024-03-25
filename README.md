@@ -16,7 +16,7 @@ We are starting to maintain a document with some shared knowledge based on the t
 
 | Date       | Topic | Room | Lead | Material | Recording/Slides | Comments           | 
 | ---        | ----- | ---- | ---- | -------- | ---------------- | ---------          |
-| 2024-04-04 |  [CS224W: Learning with Graphs, lecture 2.2](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)  | Marian Rejewski | |[CS224W: Learning with Graphs, lecture 2.2](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)|Recording |                    |
+| 2024-04-04 |  [CS224W: Learning with Graphs, lecture 2.2](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)  | Marian Rejewski | Praveen Selvaraj|[CS224W: Learning with Graphs, lecture 2.2](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)|Recording |                    |
 
 ## Past talks
 |Date | Topic | Room | Lead | Material | Recording/Slides |
