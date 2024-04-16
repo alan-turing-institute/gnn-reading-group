@@ -16,7 +16,8 @@ We are starting to maintain a document with some shared knowledge based on the t
 
 | Date       | Topic | Room | Lead | Material | Recording/Slides | Comments           | 
 | ---        | ----- | ---- | ---- | -------- | ---------------- | ---------          |
-| 2024-04-04 |  [CS224W: Learning with Graphs, lecture 2.2](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)  | Marian Rejewski | Praveen Selvaraj|[CS224W: Learning with Graphs, lecture 2.2](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)|Recording |                    |
+| 2024-04-18 | [CS224W: Learning with Graphs, lecture 2.3](https://www.youtube.com/watch?v=buzsHTa4Hgs&list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp&index=6) | Virtual | Boyko Vodenicharski | - | Recording | |
+| 2024-05-02 | Local/higher GNNs for audio classification | Margaret Hamilton | Shubhr Singh | - | Recording | |
 
 ## Past talks
 |Date | Topic | Room | Lead | Material | Recording/Slides |
@@ -34,6 +35,8 @@ We are starting to maintain a document with some shared knowledge based on the t
 | 2024-02-08 | *No talk this week* | | | | |
 | 2024-03-07 | Hello + deciding on next resource!      |   Issac Asimov (2nd floor)   |   Nathan Simpson   |          |                  |                    |
 | 2024-03-21 |  [CS224W: Learning with Graphs, lecture 2.1](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)  | Marian Rejewski |Nathan Simpson|[CS224W: Learning with Graphs, lecture 2.1](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)|[Recording](https://thealanturininstitute.sharepoint.com/:f:/s/forecasting/Eu6fbjIY8GZPq_TT5ZpwOGIByjs-TJNVqpvBENP2t4ZD9Q?e=loz4gk) |                    |
+| 2024-04-04 |  [CS224W: Learning with Graphs, lecture 2.2](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)  | Marian Rejewski | Praveen Selvaraj|[CS224W: Learning with Graphs, lecture 2.2](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)|Recording |                    |
+
 
 
 
