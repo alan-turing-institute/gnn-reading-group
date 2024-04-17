@@ -35,9 +35,5 @@ We are starting to maintain a document with some shared knowledge based on the t
 | 2024-02-08 | *No talk this week* | | | | |
 | 2024-03-07 | Hello + deciding on next resource!      |   Issac Asimov (2nd floor)   |   Nathan Simpson   |          |                  |                    |
 | 2024-03-21 |  [CS224W: Learning with Graphs, lecture 2.1](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)  | Marian Rejewski |Nathan Simpson|[CS224W: Learning with Graphs, lecture 2.1](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)|[Recording](https://thealanturininstitute.sharepoint.com/:f:/s/forecasting/Eu6fbjIY8GZPq_TT5ZpwOGIByjs-TJNVqpvBENP2t4ZD9Q?e=loz4gk) |                    |
-| 2024-04-04 |  [CS224W: Learning with Graphs, lecture 2.2](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)  | Marian Rejewski | Praveen Selvaraj|[CS224W: Learning with Graphs, lecture 2.2](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)|Recording |                    |
-
-
-
-
+| 2024-04-04 |  [CS224W: Learning with Graphs, lecture 2.2](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)  | Marian Rejewski | [Praveen Selvaraj](https://github.com/pravsels) |[CS224W: Learning with Graphs, lecture 2.2](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)|Recording; [Slides](https://github.com/alan-turing-institute/gnn-reading-group/blob/main/sessions/CS224W%3A%20Learning%20with%20Graphs%2C%20lecture%202.2/Trad%20methods%20Link-level%2C%20GC%20Reading%20Group.pdf) |                    |
 
