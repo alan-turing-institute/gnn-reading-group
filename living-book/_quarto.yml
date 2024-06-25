@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  title: "A Living Book for Notes on Graph Neural Networks"
+  author: "The Alan Turing Institute"
+  date: "25/06/2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - graphs-and-sets.md
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
