@@ -1,5 +1,5 @@
 # Preface {.unnumbered}
 
-This is a Quarto book.
+This is a living book of notes for the [graph neural network reading group](https://github.com/alan-turing-institute/gnn-reading-group) at The Alan Turing Institute.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+To contribute, please make a PR to the repository linked above after we've had a session on your chosen topic. Write your notes in any of the supported formats for Quarto (`.qmd`, `.md`, or `.ipynb`), and Quarto will do all of the legwork to publish it to this webpage!
