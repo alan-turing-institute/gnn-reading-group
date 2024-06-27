@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs 
 
 book:
   title: "A Living Book for Notes on Graph Neural Networks"
@@ -7,7 +8,6 @@ book:
   date: "25/06/2024"
   chapters:
     - index.qmd
-    - intro.qmd
     - graphs-and-sets.md
     - references.qmd
 
@@ -15,9 +15,10 @@ bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: simplex
   pdf:
     documentclass: scrreprt
 
-
+execute:
+  freeze: auto
 
