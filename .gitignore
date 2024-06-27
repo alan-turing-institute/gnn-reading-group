@@ -64,7 +64,5 @@ htmlcov/
 /.direnv
 /.pre-commit-config.yaml
 
-# Pretend we don't have a submodule
-quartz/.git
-
-/result*
+# quarto
+living-book/_book

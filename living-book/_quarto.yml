@@ -1,0 +1,21 @@
+project:
+  type: website 
+  output-dir: docs
+
+website:
+  title: "A Living Book for Notes on Graph Neural Networks"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - index.qmd
+      - graphs-and-sets.md
+
+
+format:
+  html:
+    theme: simplex
+
+execute:
+  freeze: auto
+
