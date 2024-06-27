@@ -1,23 +1,20 @@
 project:
-  type: book
-  output-dir: docs 
+  type: website 
+  output-dir: docs
 
-book:
+website:
   title: "A Living Book for Notes on Graph Neural Networks"
-  author: "The Alan Turing Institute"
-  date: "25/06/2024"
-  chapters:
-    - index.qmd
-    - graphs-and-sets.md
-    - references.qmd
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - index.qmd
+      - graphs-and-sets.md
 
-bibliography: references.bib
 
 format:
   html:
     theme: simplex
-  pdf:
-    documentclass: scrreprt
 
 execute:
   freeze: auto
