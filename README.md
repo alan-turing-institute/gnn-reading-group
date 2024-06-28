@@ -6,7 +6,7 @@ If you're based at the Turing, follow `#gnn-reading-group` on the Turing Slack f
 
 ## Overview
 
-The group meets <b>biweekly on Thursdays at 14:00–15:00</b>, and collaboratively works through a resource on a particular topic. The in-between weeks are left open for application talks, usually to highlight something that someone in the group is working on. Everyone is welcome to join! If you have any questions email [Nathan](mailto:nsimpson@turing.ac.uk) or [Oliver](mailto:ostrickson@turing.ac.uk).
+The group meets <b>biweekly on Thursdays at 14:00–15:00</b>, and collaboratively works through a resource on a particular topic. The in-between weeks are left open for application talks, usually to highlight something that someone in the group is working on. Everyone is welcome to join! If you have any questions email [Nathan](mailto:nsimpson@turing.ac.uk) or [Boyko](mailto:bvodenicharski@turing.ac.uk).
 
 Please add suggestions and emoji preferences to the [list of proposed topics](https://hackmd.io/@8yFBFkVxSEuoQIbgLEuXfw/SkyYJLBzp) on HackMD. We'd love for you to lead a session (and there aren't any prerequisites for doing so — just have to be willing to learn!).
 
