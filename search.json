@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Preface",
+    "section": "",
+    "text": "Preface\nThis is a living book of notes for the graph neural network reading group at The Alan Turing Institute.\nTo contribute, please make a PR to the repository linked above after we’ve had a session on your chosen topic. Write your notes in any of the supported formats for Quarto (.qmd, .md, or .ipynb), and Quarto will do all of the legwork to publish it to this webpage!"
+  },
+  {
     "objectID": "graphs-and-sets.html",
     "href": "graphs-and-sets.html",
     "title": "Graphs and Sets (Geometric Deep Learning)",
@@ -61,12 +68,5 @@
     "title": "Graphs and Sets (Geometric Deep Learning)",
     "section": "Learning on sets: summary",
     "text": "Learning on sets: summary\nRecall that sets are, by definition, an unordered set of objects, and we’re operating in a way that preserves this behaviour.\nNode-level learning: To learn local structure in a set fråom each node while respecting permutation equivariance, we construct a latent vector \\(\\mathbf{h}_i\\) from each \\(\\mathbf{x}_i\\) by applying the same learnable function \\(\\psi\\) to each node, and stack the results:\n\\[\n\\mathbf{h}_i = \\psi\\left(\\mathbf{x}_i\\right) ; ~~~ \\mathbf{H} = \\begin{bmatrix}\n           \\mathbf{h}_{1} \\\\\n           \\mathbf{h}_{2} \\\\\n           \\vdots \\\\\n           \\mathbf{h}_{n}\n         \\end{bmatrix} ~.\n\\]\nSet-level learning: We can generalise the above to sets by aggregating the latent vectors, which is permutation invariant with respect to the input nodes. Then (q: how much worse is it if we don’t?), we apply a second learnable function \\(\\phi\\) to arrive at the Deep Sets architecture:\n\\[\nf(\\mathbf{X}) = \\phi \\left(\\bigoplus_i \\psi \\left(\\mathbf{x}_i\\right)\\right)\n\\]\n\nIs Deep Sets the only way for learning on sets?\nFor many sets, apparently so! There are proofs referenced in the lectures that state that any learnable function that’s permutation invariant on sets can be reduced to the same expressivity as Deep Sets. Example: PointNet."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Preface",
-    "section": "",
-    "text": "Preface\nThis is a living book of notes for the graph neural network reading group at The Alan Turing Institute.\nTo contribute, please make a PR to the repository linked above after we’ve had a session on your chosen topic. Write your notes in any of the supported formats for Quarto (.qmd, .md, or .ipynb), and Quarto will do all of the legwork to publish it to this webpage!"
   }
 ]
