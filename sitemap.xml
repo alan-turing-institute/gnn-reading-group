@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://alan-turing-institute.github.io/gnn-reading-group/graphs-and-sets.html</loc>
-    <lastmod>2024-06-28T15:03:27.460Z</lastmod>
-  </url>
-  <url>
-    <loc>https://alan-turing-institute.github.io/gnn-reading-group/sessions/notes/CS224W 2.1 – Node-related graph features.html</loc>
-    <lastmod>2024-06-28T15:03:27.476Z</lastmod>
-  </url>
-  <url>
-    <loc>https://alan-turing-institute.github.io/gnn-reading-group/sessions/notes/Geometric Deep Learning – Graphs and Sets.html</loc>
-    <lastmod>2024-06-28T15:03:27.480Z</lastmod>
-  </url>
-  <url>
     <loc>https://alan-turing-institute.github.io/gnn-reading-group/index.html</loc>
-    <lastmod>2024-06-28T15:03:27.472Z</lastmod>
+    <lastmod>2024-06-28T15:05:23.211Z</lastmod>
+  </url>
+  <url>
+    <loc>https://alan-turing-institute.github.io/gnn-reading-group/graphs-and-sets.html</loc>
+    <lastmod>2024-06-28T15:05:23.192Z</lastmod>
   </url>
 </urlset>
