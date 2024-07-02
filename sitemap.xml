@@ -1,3 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://alan-turing-institute.github.io/gnn-reading-group/sessions.html</loc>
+    <lastmod>2024-07-02T17:05:36.751Z</lastmod>
+  </url>
+  <url>
+    <loc>https://alan-turing-institute.github.io/gnn-reading-group/sessions/graphs-and-sets.html</loc>
+    <lastmod>2024-07-02T17:05:36.751Z</lastmod>
+  </url>
+  <url>
+    <loc>https://alan-turing-institute.github.io/gnn-reading-group/index.html</loc>
+    <lastmod>2024-07-02T17:05:36.751Z</lastmod>
+  </url>
 </urlset>
