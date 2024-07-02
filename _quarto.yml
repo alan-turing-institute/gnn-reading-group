@@ -1,6 +1,10 @@
 project:
   type: website 
   output-dir: docs
+  render:
+    - sessions/*.md
+    - sessions/*.qmd
+    - sessions/*.ipynb
 
 website:
   title: "A Living Book for Notes on Graph Neural Networks"
@@ -8,8 +12,13 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - index.qmd
-      - graphs-and-sets.md
+      - text: Sessions
+        href: sessions.qmd
+
+  sidebar:
+    - title: "Sessions"
+      style: "docked"
+      contents: sessions
 
 
 format:
