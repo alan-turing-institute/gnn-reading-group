@@ -1,7 +1,6 @@
 # GNN Reading Group
 
-Public repo for The Alan Turing Institute's reading group on graph neural networks.
-
+Public repo for The Alan Turing Institute's reading group on graph neural networks. See our website with notes [here](https://alan-turing-institute.github.io/gnn-reading-group).
 If you're based at the Turing, follow `#gnn-reading-group` on the Turing Slack for the most recent updates.
 
 ## Overview
