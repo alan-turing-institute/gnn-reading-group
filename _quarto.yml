@@ -17,7 +17,6 @@ website:
       - text: Sessions
         href: sessions.qmd
 
-
 format:
   html:
     theme: simplex
