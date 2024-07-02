@@ -2,13 +2,20 @@ project:
   type: website 
   output-dir: docs
   render:
+    - index.qmd
+    - sessions.qmd
     - sessions/*.md
     - sessions/*.qmd
     - sessions/*.ipynb
 
 website:
   title: "A Living Book for Notes on Graph Neural Networks"
-
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Sessions
+        href: sessions.qmd
 
 format:
   html:
