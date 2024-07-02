@@ -2,6 +2,8 @@ project:
   type: website 
   output-dir: docs
   render:
+    - index.qmd
+    - sessions.qmd
     - sessions/*.md
     - sessions/*.qmd
     - sessions/*.ipynb
@@ -14,11 +16,6 @@ website:
         text: Home
       - text: Sessions
         href: sessions.qmd
-
-  sidebar:
-    - title: "Sessions"
-      style: "docked"
-      contents: sessions
 
 
 format:

@@ -3,11 +3,11 @@ title: "Sessions"
 listing:
   contents: sessions
   sort: "date desc"
-  type: table
   categories: true
-  sort-ui: true
-  filter-ui: true
-  fields: [date, title, description]
+  sort-ui: false
+  filter-ui: false
+  type: table
+  fields: [date, title, author, description]
 page-layout: full
 title-block-banner: true
 ---
