@@ -7,7 +7,7 @@ listing:
   sort-ui: false
   filter-ui: false
   type: table
-  fields: [date, title, author, description]
+  fields: [date, title, Presenter, description, Type]
 page-layout: full
 title-block-banner: true
 ---

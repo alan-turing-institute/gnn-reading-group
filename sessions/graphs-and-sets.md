@@ -1,5 +1,6 @@
 ---
 title: Graphs and Sets (Geometric Deep Learning) 
+Type: Theory
 ---
 
 ## Why are graphs/sets a useful blueprint for “geometric” deep learning?
