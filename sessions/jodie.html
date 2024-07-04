@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2024-07-04">
+<meta name="description" content="Introduce the JODIE model for modelling sequential user-item interactions in recommender systems.">
 
-<title>A Living Book for Notes on Graph Neural Networks</title>
+<title>Predicting Dynamic Embedding Trajectory in Temporal Interaction Networks – A Living Book for Notes on Graph Neural Networks</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,25 +22,45 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,6 +89,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -77,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">A Living Book for Notes on Graph Neural Networks</span>
     </a>
   </div>
@@ -88,11 +139,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./sessions.html"> 
+    <a class="nav-link" href="../sessions.html"> 
 <span class="menu-text">Sessions</span></a>
   </li>  
 </ul>
@@ -110,13 +161,112 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Predicting Dynamic Embedding Trajectory in Temporal Interaction Networks</h1>
+</div>
+
+<div>
+  <div class="description">
+    Introduce the JODIE model for modelling sequential user-item interactions in recommender systems.
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
 
-<section id="preface" class="level1 unnumbered">
-<h1 class="unnumbered">Preface</h1>
-<p>This is a living book of notes for the <a href="https://github.com/alan-turing-institute/gnn-reading-group">graph neural network reading group</a> at The Alan Turing Institute.</p>
-<p>To contribute, please make a PR to the repository linked above after we’ve had a session on your chosen topic. Write your notes in any of the supported formats for Quarto (<code>.qmd</code>, <code>.md</code>, or <code>.ipynb</code>), and Quarto will do all of the legwork to publish it to this webpage!</p>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 4, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="hidden">
+
+</div>
+<p>Recommender systems are an important application of ML on graphs, and a lot of thought has been put into the development of technology to do recommendation well. A central problem in the sphere is dealing with the modeling of sequential interactions between users and items. The items could be products in e-commerce, but also pins on Pinterest, tweets on Twitter, or course contents in Coursera. The paper <span class="citation" data-cites="Kumar_2019">(<a href="#ref-Kumar_2019" role="doc-biblioref">Kumar, Zhang, and Leskovec 2019</a>)</span> introduces JODIE, a popular method in the field which has turned into a common benchmark. Some of the challenges it addresses are:</p>
+<pre><code>1. User behaviour changes in time.
+2. Data is fed in as a sequence of interactions.
+3. Interactions have to be processed in sequence, so how do you parallelise?</code></pre>
+<p>Consider the example of a social media. These platforms want to be able to successfully predict what content the users will interact with, so that they can recommend similar content and maximise engagement. In the JODIE model, each user has a stationary property <span class="math inline">\(\overline{\mathbf{u}}\)</span>, and a time-evolving property <span class="math inline">\(\mathbf{u}(t)\)</span>. This is easy to intuit since people tend to have long-term stable preferences, but their daily and weekly interests can vary. Even cat videos can get boring if that’s all you see, but if you are a person who likes animals, then there are other similar recommendations that will catch your interest. The same argument is applied to the items, and we denote <span class="math inline">\(\overline{\mathbf{i}}\)</span>, <span class="math inline">\(\mathbf{i}(t)\)</span> as the stationary and time-evolving representations respectively.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./jodie_images/project_trajectories.png" class="img-fluid figure-img" width="300"></p>
+<figcaption>Embedding trajectory visualisation, taken from the paper. JODIE is trained to project the future position of an entity, hence taking into account the time-evolving properties of the users and items.</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./jodie_images/project_trajectory_user.png" class="img-fluid figure-img" width="350"></p>
+<figcaption>Diagram illustrating the green user projection specifically. Note that the projection for larger timesteps lies further away. The solid lines illustrates the next true embedding, once the model observes the user interacting with an item.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>The observed data is the sequence of interactions <span class="math inline">\(S_r = (u_r, i_r, t_r, \mathbf{f}_r)\)</span>, where <span class="math inline">\(u_r\)</span>, <span class="math inline">\(i_r\)</span> are the user and item interacting, <span class="math inline">\(t_r\)</span> is the timestamp, and <span class="math inline">\(\mathbf{f}_r\)</span> is a feature vector associated with the interaction. Once a new interaction is observed, the time-evolving embeddings of the participating entities are updated using a recurrent network:</p>
+<p><span class="math display">\[\begin{equation}
+    \mathbf{u}(t) = \sigma(W_1^{u}\mathbf{u}(t^{-}) + W_2^{u}\mathbf{i}(t^{-}) + W_3^{u}\mathbf{f} + W_4^{u}\Delta_u)
+\end{equation}\]</span></p>
+<p><span class="math display">\[\begin{equation}
+    \mathbf{i}(t) = \sigma(W_1^{i}\mathbf{i}(t^{-}) + W_2^{i}\mathbf{u}(t^{-}) + W_3^{i}\mathbf{f} + W_4^{i}\Delta_i)
+\end{equation}\]</span></p>
+<p>Where the interaction occurs at time <span class="math inline">\(t\)</span>, <span class="math inline">\(\mathbf{u}(t^{-})\)</span> and <span class="math inline">\(\mathbf{i}(t^{-})\)</span> represent the latest embeddings before the current interaction, and <span class="math inline">\(W\)</span> are learnable parameters. The <span class="math inline">\(\Delta\)</span> represent the elapsed time from the last interaction of the entity. Note that the RNNs are trained to predict the embedding of the <em>item</em> at <span class="math inline">\(u\)</span>’s next interaction (will come back to this). This step is referred to as the <strong>update operation</strong>.</p>
+<p>There are two more steps to predicting which item the user will interact with. The first step involves predicting the user embedding trajectory into the future, and is called <strong>project operation</strong>. The projected embedding <span class="math inline">\(\hat{\mathbf{u}}(t + \Delta)\)</span> is used in the downstream task. In the JODIE model, the user trajectory evolves continuously in time, so for an arbitrarily small <span class="math inline">\(\Delta\)</span>, the projected embedding is arbitrarily close to the starting point. With time, the projection drifts farther away. The <span class="math inline">\(*\)</span> operator is a Hamadard product, and <span class="math inline">\(W_p\)</span> converts <span class="math inline">\(\Delta\)</span> to a “time-context vector”. They also call <span class="math inline">\(W_p\Delta\)</span> a temporal attention vector. The project operation aims to predict the user’s preferences in the future, and it is also used to predict the most likely item the user will interact with.</p>
+<p><span class="math display">\[\begin{equation}
+    \hat{\mathbf{u}}(t + \Delta) = (1 + W_p\Delta) * \mathbf{u}(t)
+\end{equation}\]</span></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./jodie_images/jodie_model.png" class="img-fluid figure-img" width="500"></p>
+<figcaption>Diagram of the JODIE model: After an interaction (u, i, t, ) between user u and item i, the dynamic embeddings of u and i are updated in the update operation with <span class="math inline">\(\texttt{RNN}_U\)</span> and <span class="math inline">\(\texttt{RNN}_I\)</span> , respectively. The projection operation predicts the user embedding at a future time <span class="math inline">\(t+\Delta\)</span></figcaption>
+</figure>
+</div>
+<p>Finally, let user <span class="math inline">\(u\)</span> interact with item <span class="math inline">\(i\)</span> at time <span class="math inline">\(t\)</span>, and item <span class="math inline">\(j\)</span> at time <span class="math inline">\(t + \Delta\)</span>. At time <span class="math inline">\(t\)</span> can we predict which item <span class="math inline">\(u\)</span> will interact with at <span class="math inline">\(t + \Delta\)</span>? A crucial design decision if that JODIE outputs an item embedding vector <span class="math inline">\(\tilde{\mathbf{j}}(t + \Delta)\)</span>, instead of an interaction probability between all items. The motivation is that the model has to work on huge datasets, and pairwise probability does not scale well.</p>
+<p><span class="math display">\[\begin{equation}
+    \tilde{\mathbf{j}}(t + \Delta) = W_1 \hat{\mathbf{u}}(t + \Delta) + W_2 \overline{\mathbf{u}} + W_3\mathbf{i}(t + \Delta^{-}) + W_4\overline{\mathbf{i}} + \mathbf{B}
+\end{equation}\]</span></p>
+<p>Outputting <span class="math inline">\(\tilde{\mathbf{j}}\)</span> means <a href="https://en.wikipedia.org/wiki/Locality-sensitive_hashing">Locality Sensitive Hashing</a> (LSH) techniques can be used, and the nearest neighbour can be retreived in near-constant time. Note that to compute <span class="math inline">\(\tilde{\mathbf{j}}\)</span>, the embedding <span class="math inline">\(\mathbf{i}(t + \Delta^{-})\)</span> is used, which is the latest embedding of the <em>last item</em> that the user <span class="math inline">\(u\)</span> interacted with. The rationale of including <span class="math inline">\(\mathbf{i}(t + \Delta^{-})\)</span> is that the last item’s embedding might have been updated due to interacting with other users, and thus contains new information. Another point of interest in recommendation is that users tend to interact with the same items repeatedly, thus including this information adds useful information.</p>
+<p>The training objective minimises the L2 loss between the <span class="math inline">\(\tilde{\mathbf{j}}\)</span> and the item the user really interacts with at <span class="math inline">\(t + \Delta\)</span>.</p>
+<p><span class="math display">\[\begin{equation}
+    \texttt{L} = \sum_{S_r \in S} \left\lVert
+    \tilde{\mathbf{j}}(t) - [\overline{\mathbf{i}}, \mathbf{i}(t^{-})] \right\rVert^2 + \\
+    \lambda_U\left\lVert\mathbf{u}(t) - \mathbf{u}(t^{-})\right\rVert^2 + \lambda_I\left\lVert\mathbf{i}(t) - \mathbf{i}(t^{-})\right\rVert^2
+\end{equation}\]</span></p>
+<p>In the above equation, <span class="math inline">\([\cdot, \cdot]\)</span> is the concatenation operator, and <span class="math inline">\(\lambda_{U}\)</span>, <span class="math inline">\(\lambda_{I}\)</span> weigh the regularisation. The regularisation ensures that the updated embeddings do not vary too greatly from the initial embeddings.</p>
+<p>How do we parallelise the training? One extreme is to process each interaction in sequence of occurrence, but this would not scale to massive interaction graphs. Another extreme would be to randomly subsample a set of interactions and process them in parallel, but this is not viable, because the model is recurrent, and the sequence of processed batches must respect the temporal order of interactions. This is because the user and item embeddings also act as the hidden states of the RNN, and they persist between batches, so you don’t want to update a user’s embedding with interactions that are out of order - the model would be unable to learn the temporal dependency. A nice property of the model is that two interactions that occur between two distinct user-item pairs could be ran together in parallel, as they would not influence each other’s embeddings. Keeping this in mind, and respecting the temporal order of interactions, the paper introduces the <em>t-batch</em> algorithm. This algorithm assigns all <span class="math inline">\(|\mathcal{I}|\)</span> interactions to <span class="math inline">\(B_k\)</span> batches, where <span class="math inline">\(k \in [1, |\mathcal{I}|]\)</span>. Each batch contains user-item interactions such that each user and item appear only once. The interactions contained in two batches will also be in order.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./jodie_images/tbatch_viz.png" class="img-fluid figure-img" width="400"></p>
+<figcaption>An attempt to visualise tbatch. The board represents the interaction matrix between users and items. A pebble on the board represents that an interaction has occurred. The pebbles are coloured by batch, such that within a batch the user and item does not repeat. For any pair of batches, if a user or item interacts in both of them, their interactions must be in the same temporal order as the batch sequence.</figcaption>
+</figure>
+</div>
+<p>At the time when the paper was published, JODIE achieved SOTA performance. Nowadays it acts as a strong benchmark. We summarised how the model deals with the time evolving user behaviour, and how it is trained. The model should work well in an online production setting, as it can constantly update user and item state as new observations come in. Maybe that would reduce the need for re-training, and might be a good way to address the changing trends in online media, without worrying as much about distribution shift. The t-batch algorithm is also an interesting way to optimise training. In my prior experience, training models on sequential data poses unique challenges, as we saw above, so it is interesting to see how some methods address them.</p>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Kumar_2019" class="csl-entry" role="listitem">
+Kumar, Srijan, Xikun Zhang, and Jure Leskovec. 2019. <span>“Predicting Dynamic Embedding Trajectory in Temporal Interaction Networks.”</span> In <em>Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery &amp;Amp; Data Mining</em>. KDD ’19. ACM. <a href="https://doi.org/10.1145/3292500.3330895">https://doi.org/10.1145/3292500.3330895</a>.
+</div>
+</div>
 
 
 </section>
